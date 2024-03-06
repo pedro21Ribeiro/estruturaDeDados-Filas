@@ -85,12 +85,13 @@ int gerarSenha()
         return rand() % 100;
     }
 
-    int i = inicio;
+    
 
 
     do {
         senha = rand() % 100;
-
+        
+        int i = inicio;
         do {
             repete = senha == fila[i];
             i++;
